@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial scale=1.0">
+        <title>ETCH-A-SKETCH</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+            <!--Heading goes here-->
+        <center><h1>WELCOME TO ETCH-A-SKETCH GAME!</h1>
+        <h4>You can  design implement the size of boxes you want and color them</h4></center>
+
+        <!--End of Heading-->
+
+        <!--toggle main container-->
+        <div class="container">
+
+            <!--Content on the left of the Grid -->
+            <div class="function">
+
+             <!--get  values from the user-->
+            <input  id ="input" type="number" >
+            <button>START</button><!--draw Grid Button-->
+
+            <div class="boxSize"></div>
+
+            <!--Select the Banch of colors to use-->
+            <button class="select">SELECT COLOR</button>
+
+            <!--The color plate now-->
+            <div class="colorPlate"></div>
+            <button class="Restart">Restart</button>
+            </div>
+
+            <!--grid where to draw the squares-->
+            <div id="gridContainer"></div>
+        </div>
+
+
+    <center class="copy">&copy;@The Odin Project 2023/Author:Enock Mwema</center>
+
+        <script src="script.js"></script>
+    </body>
+</html>
